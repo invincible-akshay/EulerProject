@@ -28,6 +28,8 @@ def get_sum_3_5_mults_till_n(n):
     return res
 
 
+print('Solution for n = 1000 -> {0}'.format(get_sum_3_5_mults_till_n(1000)))
+
 print('** Running Tests now **')
 tests = t_fwork.CustomTests()
 tests.run_test(get_sum_3_5_mults_till_n, 23, 10)
